@@ -31,3 +31,11 @@ Run the application container
 docker run -p 8080:8080 d10927a72431
 ```
 
+## Using [pack](https://buildpacks.io/docs/app-developer-guide/build-an-app/)
+
+Details about [customizing the builds](https://paketo.io/docs/howto/java/)
+
+```bash
+pack build chachkies-app --env BP_JVM_VERSION=18 --path . --builder docker.io/paketobuildpacks/builder:base
+```
+
