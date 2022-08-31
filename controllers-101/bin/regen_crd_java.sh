@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-URI=https://raw.githubusercontent.com/kubernetes-native-java/controllers-101/main/k8s/crds/foo.yaml
+URI=https://raw.githubusercontent.com/poprygun/conainerization/master/controllers-101/k8s/crds/foo.yaml
 mkdir -p /tmp/java && cd /tmp/java
 docker run \
   --rm \
